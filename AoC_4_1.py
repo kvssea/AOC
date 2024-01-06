@@ -4,7 +4,6 @@ import re
 total_points = 0
 with open("data/Day4_1.txt", "r") as data:
     cards = data.readlines()
-    cards = cards.split("\n")
 
 for card in cards:
 
